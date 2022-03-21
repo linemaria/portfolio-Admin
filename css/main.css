@@ -1,0 +1,260 @@
+@import"https://use.typekit.net/oek0tql.css";
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:1.8;
+    cursor:pointer;
+    box-sizing:border-box
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+
+    background-color: #F2F2F0;
+}
+
+
+.logo{
+margin-left: 2em;
+display: block;
+width: 3%;
+margin-top: 2em;
+}
+
+h1{
+    font-size: 62px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    line-height: 1em;
+    margin-bottom: 0em;
+    margin-left: 1em;
+}
+
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 30px;
+    margin-bottom: 0em;
+}
+li {
+    list-style: none;
+
+}
+
+li a{
+    text-decoration: none;
+}
+
+table{
+    margin: auto auto;
+    text-align: center;
+    width: 80%;
+    padding-bottom: 2em;
+    background-color: #E6E7E2;
+    padding: 2em;
+    margin-top: 0.5em;
+}
+
+td, th {
+    padding: 10px;
+    max-width: 100%;
+}
+
+td{
+    border-bottom: 2px solid black;
+}
+
+td a{
+    text-decoration: none;
+    border: none;
+    color: black;
+}
+
+form{
+    margin: 50px auto;
+    text-align: left;
+    max-width: 500px;
+    background-color: #1A1A18;
+    color: #F2F2F0;
+    padding: 3em;
+    margin-top: 0.5em;
+
+}
+#loginform{
+    max-width: 400px;
+}
+#loginform input{
+    width: 100%;
+    margin: 10px 0;
+    padding:0.2em;
+    font-size: 1.2em;
+}
+input{
+    width: 100%;
+    margin: 10px 0;
+    padding: 0.7em;
+}
+input[type=submit]{
+    margin-top: 1em;
+text-align: center;
+justify-content: center;
+
+background-color: #1A1A18;
+border: 2px solid white;
+color: white;
+
+padding: 8px 20px;
+letter-spacing: 1px;
+margin-left: auto;
+margin-right: auto;
+display: inline-flex;
+font-size: 0.8em;
+width: fit-content;
+}
+input[type=submit]:hover{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+button{
+margin-top: 1em;
+text-align: center;
+justify-content: center;
+background-color: white;
+border: 2px solid black;
+padding: 8px 20px;
+letter-spacing: 1px;
+margin-left: auto;
+margin-right: auto;
+display: inline-flex;
+font-size: 0.8em;
+width: fit-content;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+#loginbtn{
+    margin-top: 1em;
+    text-align: center;
+    justify-content: center;
+    background-color: #1A1A18;
+    border: 2px solid white;
+    color: white;
+    padding: 8px 20px;
+    letter-spacing: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.8em;
+    width: fit-content;
+    display: block;
+}
+#loginbtn:hover{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+
+.logout{
+    margin-top: 5em;
+
+    background-color: white;
+    border: 2px solid black;
+    padding: 8px 20px;
+    letter-spacing: 1px;
+   margin-left: 3.5em;
+    font-size: 1em;
+    width: fit-content;
+    display: block;
+    text-decoration: none;
+}
+.logout a{
+    color: black;
+}
+.logout a:visited{
+    color: black;
+}
+
+.logout:hover{
+    background-color: black;
+    color: white;
+}
+.adminMenu{
+  
+    display: block;
+    margin-top: 1em;
+    margin-left: 1.5em;
+    margin-bottom: 2em; 
+}
+.adminMenu ul li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 0.5em;
+    margin-right: 0.5em;}
+
+.adminMenu ul li a{
+        text-decoration: none;
+        color: black;
+        font-family: serif;
+        font-size: 1em;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+
+}
+.adminMenu ul li a:visited{
+    color: black;
+}
+.underMenu {
+    margin-left: 4em;
+    margin-top: 2em;
+    display: block;
+    text-decoration: none;
+}
+.underMenu a{
+    text-decoration: none;
+}
+a{
+    color: black;
+    font-size: 1.3em;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color:#E6E7E2;
+
+}
+
+footer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* Responsivitet */
+
+@media screen and (max-width:800px) {
+
+    button{
+    padding: 2px 5px;
+    font-size: 0.7em;
+    width: fit-content;
+    }
+
+    table{
+        margin: auto auto;
+        text-align: center;
+        width: 100%;
+        padding-bottom: 0.5em;
+        padding: 0.1em;
+        margin-top: 0.5em;
+        font-size: 0.4em;
+
+    }
+
+    
+    .logo{width: 10%;}
+    
+}
